@@ -33,7 +33,7 @@ jobs:
     - name: Push Docker Image
       run: |
         docker push apolosg99/docker-graphql:0.0.1
-        docker build -t apolosg99/docker-graphql:latest
+        docker push apolosg99/docker-graphql:latest
  
 
 
